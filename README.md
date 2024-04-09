@@ -1,4 +1,4 @@
-# Single Character Recognition
+# Single Character Recognition (OCR)
 
 The Single Character Recognition code is designed for recognizing individual characters from images using convolutional neural networks (CNNs). It achieves an accuracy of 97.2% on the provided dataset. This code utilizes PyTorch for model building and training.
 
