@@ -8,6 +8,7 @@ The Single Character Recognition code is designed for recognizing individual cha
 - Set the REBUILD_DATA flag to True if it's the first time running to rebuild the dataset.
 - Train the model by running the training loop for a specified number of epochs.
 - Evaluate the model on the testing dataset to obtain accuracy metrics.
+- 
 
 ## Note:
 
