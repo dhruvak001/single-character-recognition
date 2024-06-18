@@ -22,20 +22,20 @@ The Single Character Recognition code is designed for recognizing individual cha
 
 ## Code Overview:
 
-Dataset Preparation:
+Dataset Preparation:</br>
 The code expects the dataset to be organized in specific folders, with each folder representing a class (e.g., letters A-Z, digits 0-9).
 It reads images from the specified training and testing data paths, preprocesses them (resizing to a fixed size), and creates training and testing datasets.
 
-Model Architecture:
+Model Architecture:</br>
 The neural network architecture consists of three convolutional layers followed by two fully connected (linear) layers.
 Each convolutional layer is followed by a max-pooling layer and a ReLU activation function.
 The output layer has 36 units corresponding to the 36 classes (26 letters + 10 digits).
 
-Training:
+Training:</br>
 The model is trained using the Adam optimizer with a mean squared error (MSE) loss function.
 Training is performed in batches over multiple epochs.
 Training progress is displayed, and the loss is printed for each epoch.
 
-Testing:
+Testing:</br>
 After training, the model is evaluated on the testing dataset to measure its accuracy.
 The accuracy is calculated by comparing the predicted classes with the true classes and calculating the ratio of correct predictions to the total number of samples.
